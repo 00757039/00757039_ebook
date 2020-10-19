@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454B0FCC253DCFB70074BBBB /* film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454B0FCB253DCFB70074BBBB /* film.swift */; };
+		454B0FD1253DD0830074BBBB /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454B0FD0253DD0830074BBBB /* data.swift */; };
+		454B0FD9253DD5C70074BBBB /* intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454B0FD8253DD5C70074BBBB /* intro.swift */; };
 		4BED93A4253C593900A6E016 /* ebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED93A3253C593900A6E016 /* ebookApp.swift */; };
 		4BED93A6253C593900A6E016 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED93A5253C593900A6E016 /* ContentView.swift */; };
 		4BED93A8253C593C00A6E016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BED93A7253C593C00A6E016 /* Assets.xcassets */; };
 		4BED93AB253C593C00A6E016 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BED93AA253C593C00A6E016 /* Preview Assets.xcassets */; };
 		4BED93B6253C593D00A6E016 /* ebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED93B5253C593D00A6E016 /* ebookTests.swift */; };
 		4BED93C1253C593D00A6E016 /* ebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED93C0253C593D00A6E016 /* ebookUITests.swift */; };
+		4BED93D2253C5B1500A6E016 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED93D1253C5B1500A6E016 /* product.swift */; };
+		4BED93D7253C74AC00A6E016 /* Mamelon.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4BED93D6253C74AC00A6E016 /* Mamelon.otf */; };
+		4BED93DF253C9F7F00A6E016 /* wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED93DE253C9F7E00A6E016 /* wall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		454B0FCB253DCFB70074BBBB /* film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = film.swift; sourceTree = "<group>"; };
+		454B0FD0253DD0830074BBBB /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		454B0FD8253DD5C70074BBBB /* intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intro.swift; sourceTree = "<group>"; };
 		4BED93A0253C593900A6E016 /* ebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BED93A3253C593900A6E016 /* ebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebookApp.swift; sourceTree = "<group>"; };
 		4BED93A5253C593900A6E016 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,9 @@
 		4BED93BC253C593D00A6E016 /* ebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BED93C0253C593D00A6E016 /* ebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebookUITests.swift; sourceTree = "<group>"; };
 		4BED93C2253C593D00A6E016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BED93D1253C5B1500A6E016 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		4BED93D6253C74AC00A6E016 /* Mamelon.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mamelon.otf; sourceTree = "<group>"; };
+		4BED93DE253C9F7E00A6E016 /* wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +108,15 @@
 			isa = PBXGroup;
 			children = (
 				4BED93A3253C593900A6E016 /* ebookApp.swift */,
+				4BED93D1253C5B1500A6E016 /* product.swift */,
+				4BED93DE253C9F7E00A6E016 /* wall.swift */,
+				454B0FCB253DCFB70074BBBB /* film.swift */,
+				454B0FD0253DD0830074BBBB /* data.swift */,
+				454B0FD8253DD5C70074BBBB /* intro.swift */,
 				4BED93A5253C593900A6E016 /* ContentView.swift */,
 				4BED93A7253C593C00A6E016 /* Assets.xcassets */,
 				4BED93AC253C593C00A6E016 /* Info.plist */,
+				4BED93D6253C74AC00A6E016 /* Mamelon.otf */,
 				4BED93A9253C593C00A6E016 /* Preview Content */,
 			);
 			path = ebook;
@@ -233,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BED93D7253C74AC00A6E016 /* Mamelon.otf in Resources */,
 				4BED93AB253C593C00A6E016 /* Preview Assets.xcassets in Resources */,
 				4BED93A8253C593C00A6E016 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454B0FD9253DD5C70074BBBB /* intro.swift in Sources */,
+				4BED93D2253C5B1500A6E016 /* product.swift in Sources */,
+				454B0FD1253DD0830074BBBB /* data.swift in Sources */,
+				4BED93DF253C9F7F00A6E016 /* wall.swift in Sources */,
 				4BED93A6253C593900A6E016 /* ContentView.swift in Sources */,
 				4BED93A4253C593900A6E016 /* ebookApp.swift in Sources */,
+				454B0FCC253DCFB70074BBBB /* film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
